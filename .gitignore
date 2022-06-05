@@ -1,0 +1,12 @@
+#dir
+dist/
+.idea/
+st/
+node_modules/
+#files
+*.config.json
+*.config.js
+*.sass
+*.scss
+*.less
+*.iml

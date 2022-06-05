@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.banner{
+    background: rgba(169, 116, 255, 0.38);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 1330px){
+    .banner{
+        display: none;
+    }
+}
+
+.container_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #dff5ff;
+}

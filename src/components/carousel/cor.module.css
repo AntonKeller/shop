@@ -1,0 +1,52 @@
+.carousel_item{
+    user-select: none;
+    height: 480px;
+    line-height: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #00000085;
+}
+
+.carousel_item:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 9%;
+    background: #00000006;
+}
+
+.item_title{
+    position: relative;
+    color: #a14b9e;
+    font-size: 64px;
+    text-shadow: 8px 8px 28px #00000055, -2px -2px 4px #ffffff60;
+}
+
+.item_sub_title{
+    color: #fbf1ff;
+    font-size: 32px;
+    text-shadow: 4px 4px 14px #00000055, -2px -2px 4px #ffffff60;
+}
+
+.item_one{
+    background: #c98cff65;
+}
+
+.item_two{
+    background: #8cc4ff65;
+}
+
+.item_three{
+    background: #ff8c8c65;
+}
+
+.item_four{
+    background: #8cffc465;
+}
