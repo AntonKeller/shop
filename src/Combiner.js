@@ -1,26 +1,26 @@
 import React from 'react';
-import { Container } from "@material-ui/core";
+import {Container} from "@material-ui/core";
 import Header from "./components/header/Header";
 import Gallery from "./components/gallery/Gallery";
-import FilterMenu from "./components/gallery/FilterMenu";
+import MenuFilter from "./components/gallery/MenuFilter";
 import MyCor from "./components/carousel/MyCor";
-import styles from "./combiner.module.css"
 import Auth from "./pages/Auth";
 
 const Combiner = () => {
     return (
-        <Container disableGutters={true} className={styles.container} maxWidth={"xl"}>
-            <Header/>
+        <Container disableGutters={true} maxWidth={"xl"}>
 
-            <Container className={styles.container} maxWidth={"xl"}>
+            <Container maxWidth={"xl"}>
+                <Header/>
+            </Container>
+
+            <Container maxWidth={"xl"}>
                 <MyCor/>
+                <MenuFilter/>
                 <Gallery/>
             </Container>
-            {/*<Auth />*/}
 
-
-            {/*<FilterMenu/>*/}
-
+            <Auth />
         </Container>
     )
 }
